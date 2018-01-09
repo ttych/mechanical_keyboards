@@ -1,10 +1,12 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="utf-8">
+	  <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<meta name="description" content="Arround Mechnanical Keyboards ...">
+		<meta name="author" content="Thomas Tych">
+		<title>Mechanical Keyboards</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -44,10 +46,12 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+			        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ 			        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+			        { src: 'plugin/zoom-js/zoom.js', async: true },
+			        { src: 'plugin/notes/notes.js', async: true }
 				]
 			});
 		</script>
