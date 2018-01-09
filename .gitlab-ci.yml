@@ -22,10 +22,10 @@ pages:
   stage: pages
   dependencies:
     - build
-  script: []
+  script:
+    - echo 'publishing deck'
   artifacts:
     paths:
       - public/
   only:
     - master
-
