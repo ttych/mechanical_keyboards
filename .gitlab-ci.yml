@@ -11,7 +11,7 @@ build:
   - npm install --global grunt-cli
   - grunt
   - mkdir public
-  - mv {content,css,js,lib,plugin}/ index.html pdf.css public/
+  - mv {contents,css,js,lib,plugin}/ index.html pdf.css public/
   artifacts:
     name: public
     expire_in: 31d
