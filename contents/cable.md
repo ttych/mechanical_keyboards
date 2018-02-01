@@ -23,6 +23,6 @@ To reduce resistance and allow for a better flow of electrons the diameter of th
 
 ## Sheath
 
-- polyéthylène (PE)
+- polyethylene (PE)
 - polychlorure de vinyle (PVC)
 - Nylon
