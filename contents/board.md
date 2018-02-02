@@ -1,3 +1,11 @@
 ## Board
 
-size, layout, programmable, ...
+Size :
+
+Layout :
+
+Led support :
+- North mount
+- South mount
+
+Programmable :

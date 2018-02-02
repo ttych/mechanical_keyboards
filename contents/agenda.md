@@ -14,7 +14,6 @@
 | Case       |
 | Board      |
 | Keycap     |
-| Programmable |
 
 ----------
 
@@ -22,6 +21,7 @@
 
 | Part 2 : Examples |
 | ------------ |
-| Pok3r        |
 | Filco        |
 | GH60 Kits    |
+| Programmable |
+| Pok3r        |
